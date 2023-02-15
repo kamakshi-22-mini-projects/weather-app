@@ -18,14 +18,14 @@ body {
 }
 
 .app {
-  background-image: url('../assets/winter.jpeg');
+  background-image: url('src/assets/winter.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   transition: 0.4 ease;
 
   &.warm {
-    background-image: url('../assets/summer.jpeg');
+    background-image: url('src/assets/summer.jpeg');
   }
 
   @media screen and (min-width: 1024px) {
