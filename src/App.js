@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 
-const api ={
-  key: import.meta.env.VITE_API_KEY,
+const api = {
+  key: process.env.REACT_APP_API_KEY,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <div className={
       (typeof weather.main != "undefined")
-        ? ((weather.main.temp > 16) 
+        ? ((weather.main.temp > 16)
           ? 'app warm' // if weather.main.temp > 16, then app warm
           : 'app') // if weather.main.temp < 16, then app
         : 'app' // if weather.main is undefined, then app
@@ -57,11 +57,11 @@ function App() {
           <div>
             <div className="location-box">
               <div className="location">{weather.name}, {weather.sys.country}</div>
-              <div className="date">{dateBuilder(new Date() )}</div>
+              <div className="date">{dateBuilder(new Date())}</div>
             </div>
             <div className="weather-box">
               <div className="temp">{Math.round(weather.main.temp)}°C</div>
-              <div className="weather">{weather.weather[0].main}</div>
+              <div className="weather">{weather.weather[0].description}</div>
             </div>
           </div>
         ) : ('')}
