@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kamakshi-22-mini-projects/weather-app/static/css/main.4a4b87a5.css",
+    "main.js": "/kamakshi-22-mini-projects/weather-app/static/js/main.9f801900.js",
+    "static/media/winter.jpeg": "/kamakshi-22-mini-projects/weather-app/static/media/winter.725b8f9c00ab97aaf36b.jpeg",
+    "static/media/summer.jpeg": "/kamakshi-22-mini-projects/weather-app/static/media/summer.3955dde6e5255cf6b598.jpeg",
+    "index.html": "/kamakshi-22-mini-projects/weather-app/index.html",
+    "main.4a4b87a5.css.map": "/kamakshi-22-mini-projects/weather-app/static/css/main.4a4b87a5.css.map",
+    "main.9f801900.js.map": "/kamakshi-22-mini-projects/weather-app/static/js/main.9f801900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a4b87a5.css",
+    "static/js/main.9f801900.js"
+  ]
+}
